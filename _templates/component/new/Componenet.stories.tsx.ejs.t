@@ -2,7 +2,7 @@
 to: src/components/<%= name %>/<%= name %>.stories.tsx
 ---
 import { Meta, StoryObj } from '@storybook/react';
-import <%= name %> from './<%= name %>';
+import { <%= name %> } from './<%= name %>';
 
 const meta: Meta<typeof <%= name %>> = {
     component: <%= name %>,

@@ -3,12 +3,18 @@
         "react-app",
         "plugin:react/recommended",
         "plugin:react-hooks/recommended",
-        "prettier"
+        "prettier",
+        "plugin:storybook/recommended"
     ],
-    "plugins": ["react", "react-hooks"],
+    "plugins": [
+        "react",
+        "react-hooks"
+    ],
     "rules": {
         "react/react-in-jsx-scope": "off",
-        "prettier/prettier": ["error"]
+        "prettier/prettier": [
+            "error"
+        ]
     },
     "settings": {
         "react": {
@@ -16,4 +22,3 @@
         }
     }
 }
-  

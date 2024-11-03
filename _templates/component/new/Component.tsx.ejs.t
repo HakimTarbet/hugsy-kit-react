@@ -2,7 +2,7 @@
 to: src/components/<%= name %>/<%= name %>.tsx
 ---
 import React from 'react';
-import './<%= name %>.scss';
+import { Styled<%= name %> } from './<%= name %>.styles';
 
 interface <%= name %>Props {}
 

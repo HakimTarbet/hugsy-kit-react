@@ -1,0 +1,9 @@
+{
+  "name": "hugsy-kit-react",
+  "version": "0.1.0",
+  "description": "A cozy, friendly UI components kit for React JS",
+  "main": "index.js",
+  "repository": "https://github.com/HakimTarbet/hugsy-kit-react.git",
+  "author": "Hakim Tarbet Angri <ha.tarbet@gmail.com>",
+  "license": "MIT"
+}

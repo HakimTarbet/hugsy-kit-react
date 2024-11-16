@@ -1,4 +1,4 @@
-const path = require('path');
+import path from 'path';
 
 module.exports = {
   mode: 'production',
@@ -6,9 +6,17 @@ module.exports = {
   output: {
     path: path.resolve(__dirname, 'build'),
     filename: 'hugsy-kit-react.js',
+    library: 'hugsyKitReact',
+    libraryTarget: 'umd',
+    globalObject: 'this',
   },
   module: {
     rules: [
+      {
+        test: /\.(js|ts)x?$/,
+        use: 'ts-loader',
+        exclude: /node_modules/,
+      },
       {
         test: /\.scss$/,
         use: [
@@ -16,17 +24,14 @@ module.exports = {
           'css-loader',
           'sass-loader'
         ],
-      },
-      {
-        test: /\.(js|ts)x?$/,
-        exclude: /node_modules/,
-        use: {
-          loader: 'babel-loader',
-        },
-      },
+      }
     ],
   },
   resolve: {
-    extensions: ['.ts', '.tsx'],
+    extensions: ['.tsx', '.ts', '.js'],
+  },
+  externals: {
+    react: 'react',
+    'react-dom': 'react-dom',
   },
 };

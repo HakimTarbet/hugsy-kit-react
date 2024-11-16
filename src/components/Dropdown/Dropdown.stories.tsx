@@ -18,6 +18,7 @@ export const Default: Story = {
         onSelectOption: () => undefined
     },
 };
+
 export const GreyBackgroudStyle: Story = {
     args: {
         placeholder: "Select Items",

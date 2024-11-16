@@ -1,0 +1,39 @@
+@use '../../styles/variables' as *;
+
+.select {
+    display: flex;
+    flex-direction: column;
+    max-width: 377px;
+    position: relative;
+    font-family: var(--font-family);
+    color: #747775;
+    line-height: 24px;
+    font-size: 14px;
+    
+    &__label {
+        margin: 0 0 8px 0;
+    }
+
+    &__field {
+        padding: 12px;
+        background-color: transparent;
+
+        &--border {
+            border-radius: 6px;
+            border: 1px solid var(--neutral-40);
+        }
+
+        &--grey {
+            border-top: none;
+            border-left: none;
+            border-right: none;
+            border-bottom: 1px solid var(--neutral-40);
+            background-color: var(--neutral-5);
+
+            button {
+                border-radius: 0;
+                background-color: var(--neutral-5);
+            }
+        }
+    }
+}

@@ -3,7 +3,7 @@ import { DropdownOption, NullableDropdownOption } from './Dropdown.dto'
 import { ChevronDownIcon, XMarkIcon } from '@heroicons/react/24/outline'
 import './Dropdown.scss'
 
-interface DropdownProps {
+type DropdownProps = {
   placeholder: string
   options: DropdownOption[]
   onSelectOption: (option: NullableDropdownOption) => void

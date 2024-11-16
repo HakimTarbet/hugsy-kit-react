@@ -51,7 +51,7 @@ Below is the roadmap for Hugsy Kit React components. You can track the progress 
 |------------|----------------|
 | Heading    | Completed      |
 | Dropdown   | Completed      |
-| Select     | Not Completed  |
+| Select     | Completed      |
 | Input      | Not Completed  |
 | Checkbox   | Not Completed  |
 | Radio      | Not Completed  |

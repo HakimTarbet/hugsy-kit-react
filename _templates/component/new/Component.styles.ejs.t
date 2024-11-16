@@ -1,10 +1,8 @@
 ---
-to: src/components/<%= name %>/<%= name %>.styles.ts
+to: src/components/<%= name %>/<%= name %>.scss
 ---
-import styled from 'styled-components';
-
-interface Styled<%= name %>Props {
-    
+.<%= name %> {
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
-export const Styled<%= name %> = styled.div<Styled<%= name %>Props>`
-`;

@@ -3,10 +3,21 @@
   "version": "0.1.0",
   "description": "A cozy, friendly UI components kit for React JS",
   "main": "index.js",
-  "repository": "https://github.com/HakimTarbet/hugsy-kit-react.git",
-  "author": "Hakim Tarbet Angri <ha.tarbet@gmail.com>",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/HakimTarbet/hugsy-kit-react.git"
+  },
+  "bugs": {
+    "url": "https://github.com/HakimTarbet/hugsy-kit-react/issues"
+  },
+  "homepage": "https://github.com/HakimTarbet/hugsy-kit-react#readme",
+  "author": {
+    "name": "Hakim Tarbet Angri",
+    "email": "ha.tarbet@gmail.com"
+  },
   "license": "MIT",
   "dependencies": {
+    "@heroicons/react": "^2.1.5",
     "react": "^18.3.1",
     "react-dom": "^18.3.1"
   },
@@ -15,14 +26,14 @@
     "@babel/preset-react": "^7.25.9",
     "@babel/preset-typescript": "^7.26.0",
     "@chromatic-com/storybook": "^3.2.2",
-    "@storybook/addon-essentials": "^8.4.1",
-    "@storybook/addon-interactions": "^8.4.1",
-    "@storybook/addon-onboarding": "^8.4.1",
+    "@storybook/addon-essentials": "^8.4.2",
+    "@storybook/addon-interactions": "^8.4.2",
+    "@storybook/addon-onboarding": "^8.4.2",
     "@storybook/addon-webpack5-compiler-swc": "^1.0.5",
-    "@storybook/blocks": "^8.4.1",
+    "@storybook/blocks": "^8.4.2",
     "@storybook/react": "^8.4.2",
-    "@storybook/react-webpack5": "^8.4.1",
-    "@storybook/test": "^8.4.1",
+    "@storybook/react-webpack5": "^8.4.2",
+    "@storybook/test": "^8.4.2",
     "@testing-library/dom": "^10.4.0",
     "@testing-library/jest-dom": "^6.6.3",
     "@testing-library/react": "^16.0.1",
@@ -36,14 +47,14 @@
     "eslint-config-prettier": "^9.1.0",
     "eslint-plugin-react": "^7.37.2",
     "eslint-plugin-react-hooks": "^5.0.0",
-    "eslint-plugin-storybook": "^0.10.2",
+    "eslint-plugin-storybook": "^0.11.0",
     "hygen": "^6.2.11",
     "jest": "^29.7.0",
     "jest-environment-jsdom": "^29.7.0",
     "prettier": "^3.3.3",
     "sass": "^1.80.6",
     "sass-loader": "^16.0.3",
-    "storybook": "^8.4.1",
+    "storybook": "^8.4.2",
     "style-loader": "^4.0.0",
     "ts-jest": "^29.2.5",
     "typescript": "^5.6.3"

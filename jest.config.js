@@ -14,5 +14,6 @@ module.exports = {
       "\\.styles\\.ts$",
       "\\.mock\\.js$",
       "\\.mock\\.ts$",
+      "\\.dto\\.ts$",
     ],
 }
